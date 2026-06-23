@@ -1,4 +1,4 @@
-# 🎬 MovieLens Recommendation System using PySpark ALS
+# MovieLens Recommendation System using PySpark ALS
 Sistem rekomendasi film berskala besar menggunakan algoritma **Alternating Least Squares (ALS)** berbasis **Matrix Factorization** di atas framework **Apache Spark (PySpark)**.
 Proyek ini mencakup seluruh pipeline data mulai dari:
 * Data Quality Checking
@@ -128,7 +128,7 @@ Kemudian dibandingkan dengan data aktual pada test set untuk menghitung:
 * Recall@20
 ---
 
-## 📊 Sparsity Analysis
+## Sparsity Analysis
 ### Sebelum Preprocessing
 | Kondisi Dataset | Total Sel Matriks | Total Rating | Density | Sparsity |
 | --------------- | ----------------- | ------------ | ------- | -------- |
@@ -139,7 +139,7 @@ Kemudian dibandingkan dengan data aktual pada test set untuk menghitung:
 | Post-Filter Dataset | 160,560,000       | 1,612,868    | 1.0045% | 98.9955% |
 ---
 
-## 📈 Modeling Results
+## Modeling Results
 ```text
 ============================================================
          RANGKUMAN METRIC & DIMENSI MODELING ALS
